@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(52, 73, 61);
+color: #ffffff;
+padding: 10px;
+text-align: center;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    }
+
+    nav li {
+        display: inline;
+        margin-right: 20px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: bold;
+    }
+
+    nav ul li a:hover {
+        text-decoration: underline;
+    
+    }
+
+    .excursiones {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 20px;
+
+    }
+
+    .excursione {
+        border: 2px solid #3d503a;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+        flex: 20px;
+        box-sizing: border-box;
+    }
+
+    .excursione img {
+        max-width: 100%;
+    }
+
+    footer{
+        background-color: #3d5739;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    }
+
+    .logo {
+        height: 175px; /* Ajusta el tamaño del logo */
+        
+    }
+
+    hr {
+        border: none; /* Eliminar el borde predeterminado */
+        height: 3px; /* Altura de la línea */
+        background: linear-gradient(to right, rgb(51, 117, 60), #234b27); /* Gradiente de colores */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Sombra para darle profundidad */
+        margin: 20px 0; /* Espaciado arriba y abajo */
+    }
